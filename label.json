@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "label": "Monster",
+    "label_ja": "モンスター"
+  },
+  {
+    "index": 1,
+    "label": "Cuba",
+    "label_ja": "キューバリブレ"
+  },
+  {
+    "index": 2,
+    "label": "Zero",
+    "label_ja": "ゼロ"
+  },
+  {
+    "index": 3,
+    "label": "Khaos",
+    "label_ja": "カオス"
+  },
+  {
+    "index": 4,
+    "label": "Ultra",
+    "label_ja": "ウルトラ"
+  },
+  {
+    "index": 5,
+    "label": "Pipeline",
+    "label_ja": "パイプライン"
+  }
+]

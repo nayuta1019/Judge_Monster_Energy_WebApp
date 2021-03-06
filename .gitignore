@@ -1,0 +1,6 @@
+*.npy
+*.jpg
+*.png
+pyvenv.cfg
+.DS_Store
+__pycache__

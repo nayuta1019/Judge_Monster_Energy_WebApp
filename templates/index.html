@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Judge Monster Energy</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+      <h2>Judge Monster Energy</h2>
+      <div class="box">
+        <p>モンスターエナジーの画像をアップロードしてください</p>
+        <form method="POST" action="/send" enctype="multipart/form-data">
+          <input type="file" id="img_file" name="img_file">
+          <input type="submit" value="送信">
+          <p>対応しているファイル形式はpng, jpegです</p>
+          <p>2MB以上の画像はアップロードできません</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

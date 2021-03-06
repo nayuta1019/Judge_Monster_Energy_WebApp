@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Judge Monster Energy</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/predict.css') }}">
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+      <h1>予測結果</h1>
+      <div class="box">
+        <p>
+          <img class="img" src={{img}}>
+        </p>
+        <p>{{message}}</p>
+        <a href="./">TOPに戻る</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
