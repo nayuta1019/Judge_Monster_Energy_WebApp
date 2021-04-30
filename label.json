@@ -28,5 +28,10 @@
     "index": 5,
     "label": "Pipeline",
     "label_ja": "パイプライン"
+  },
+  {
+    "index": 6,
+    "label": "RedBull",
+    "label_ja": "レッドブル"
   }
 ]

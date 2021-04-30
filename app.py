@@ -13,7 +13,7 @@ ALLOWED_EXTENSIONS = set(['.png', '.jpg', '.jpeg'])
 
 app = Flask(__name__)
 
-# limit upload file size : 1MB
+# limit upload file size : 2MB
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
 
 
@@ -75,8 +75,6 @@ def predict():
         prediction = model.predict(x)
         label = np.argmax(prediction, axis=1)
         message = "これは" + categories[label[0]] + "です"
-        if np.all(prediction * 100 < 30.0):
-            message = "モンスター以外の画像ですか?"
 
         # バイナリデータをbase64でエンコードし, それをさらにutf-8でデコードしておく
         qr_b64str = base64.b64encode(buf.getvalue()).decode("utf-8")
